@@ -1,0 +1,165 @@
+/* TABLETS */
+
+@media screen and (max-width: 1024px) {
+
+  /* HEADER ***************************/
+
+  header {
+    height: auto;
+  }
+
+  #logo {
+    width: 70px;
+    margin-top: 5px;
+  }
+
+  header nav {
+    margin-top: 0;
+  }
+
+  header nav ul li {
+    font-size: 12px;
+  }
+
+  /* HOME ***************************/
+
+  #h1 {
+    margin-top: 80px;
+    width: 200px;
+  }
+
+  #home h2 {
+    font-size: 22px;
+  }
+
+  #pfeil {
+    width: 30px;
+    margin-top: 140px;
+  }
+
+  h3 {
+    padding-top: 10%;
+  }
+
+  /* ANGEBOT ***************************/
+
+  #imbiss {
+    width: 100%;
+  }
+
+  #imbiss img {
+    width: 70%;
+    height: 245px;
+  }
+
+  #grill {
+    width: 100%;
+    margin-top: 45px;
+  }
+
+
+  /* IMPRESSIONEN ***************************/
+
+  #impressionen {
+    padding-bottom: 50px;
+  }
+
+  #eindrücke, #location {
+    width: 100%;
+  }
+
+  #bilderkarussell {
+    width: 60%;
+    margin: auto 20%;
+    height: 330px;
+  }
+
+
+  /* ÜBER UNS ***************************/
+
+
+  #überuns p {
+    left: 10px;
+    font-size: 14px;
+  }
+
+  #überuns {
+    padding-bottom: 50px;
+  }
+
+
+  /* KONTAKT ***************************/
+
+  #kontakt {
+    padding-bottom: 20px;
+  }
+
+  form input, form textarea {
+    width: 60%;
+  }
+
+  .button {
+    width: 62%;
+  }
+
+  .success{
+    margin-top: 50px;
+    height: auto;
+  }
+
+  /* FOOTER ***************************/
+
+  .inhalt {
+    width: 60%;
+  }
+
+  .follow p {
+    font-size: 13px;
+  }
+
+  .fa-facebook-square, .fa-instagram {
+    font-size: 24px;
+  }
+
+  .angaben {
+    font-size: 13px;
+  }
+}
+
+
+
+@media screen and (max-width: 970px) {
+
+  /* KONTAKT ***************************/
+
+  .input_text {
+    margin-bottom: 6px;
+  }
+
+  .alert {
+    margin-left: -31%;
+    margin-bottom: 5px;
+    width: 58%;
+  }
+
+  .alert::before {
+    position: absolute;
+    bottom: 90%;
+    left: 10px;
+    width: 0px;
+    height: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #cc3300;
+  }
+
+  .alert.show {
+    font-size: 14px;
+  }
+
+  #textAlert {
+    margin-top: -4px;
+    margin-bottom: 10px;
+  }
+
+}
