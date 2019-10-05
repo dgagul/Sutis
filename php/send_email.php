@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 $success = "";
-$empfaenger = "dario.gagulic@gmail.com";
+$empfaenger = "info@sutis.ch";
 
 
 $mail_error = isset($_SESSION['mail_error']) ? $_SESSION['mail_error'] : "";
