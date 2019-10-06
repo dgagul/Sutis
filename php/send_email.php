@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           $_SESSION['nachricht'] = $text;
           $_SESSION['text_error'] = $text_error; }
 
-  header("Location: http://localhost/sutis/index.php#kontakt");
+  header("Location: http://sutis.ch#kontakt");
   return;
 }
 
