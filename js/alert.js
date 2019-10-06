@@ -30,7 +30,9 @@ $(document).ready(function() {
     };
   }
 
-  $(window).resize(function(){location.reload();});
+  if($width=1024 || $width=970 || $width=720 || $width=660 || $width=585) {
+    $(window).resize(function(){location.reload();});
+  }
 
 
 });
