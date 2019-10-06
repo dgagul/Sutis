@@ -75,7 +75,7 @@ if ($mail_error == "" and $text_error == "" and !empty($from) and !empty($betref
   if($mail_senden){
     session_unset();
     $success = "Vielen Dank, Ihre Nachricht wurde erfolgreich versendet!
-    Wir kümmern us um Ihre Anfrage. Herzliche Grüsse";
+    Wir kümmern uns um Ihre Anfrage. Herzliche Grüsse";
 
     //Bestätigungsmail an Absender
     $msg2 = "Sie haben folgende Anfrage an uns übermittelt und wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen. \nVielen Dank, Ihr Sutis Team! \r\n\n\n\n";
