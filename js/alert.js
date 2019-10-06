@@ -28,7 +28,7 @@ $(document).ready(function() {
       $("#br3").css('display', 'inline')
       $("#br4").css('display', 'inline')
     };
-  }
+  };
 
   if($width=1024 || $width=970 || $width=720 || $width=660 || $width=585) {
     $(window).resize(function(){location.reload();});
