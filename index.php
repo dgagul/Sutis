@@ -6,7 +6,7 @@
 <html lang="de-CH" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Bildschirmgrösse für andere Geräte, kein Zoom -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="keywords" content="sutis, bbq, party, grill, catering, imbiss, familienbetrieb, barbecue, holzkohle, pius suter, monika suter, event, betriebsfest">
 
     <title>Sutis | Spezialitäten</title>
@@ -26,7 +26,7 @@
     <header>
       <div id="logo">
         <a href="#home">
-          <img src="Bilder/logo-sutis.gif" alt="Logo">
+          <img src="Bilder/Logo-Sutis.gif" alt="Logo">
         </a>
       </div>
 
@@ -94,7 +94,7 @@
         <div id="eindrücke">
           <div id="bilderkarussell">
             <figure>
-              <img src="Bilder/bild001.jpg" alt="Bild1">
+              <img src="Bilder/bild001-min.jpg" alt="Bild1">
               <figcaption>Imbissburg Luga</figcaption>
             </figure>
             <figure>
@@ -106,11 +106,11 @@
               <figcaption>Imbissburg Määs Luzern</figcaption>
             </figure>
             <figure>
-              <img src="Bilder/bild004.jpg" alt="Bild4">
+              <img src="Bilder/bild004-min.JPG" alt="Bild4">
               <figcaption>Imbissburg Määs Luzern</figcaption>
             </figure>
             <figure>
-              <img src="Bilder/bild005.jpg" alt="Bild5">
+              <img src="Bilder/bild005-min.JPG" alt="Bild5">
               <figcaption>Imbissburg Määs Luzern</figcaption>
             </figure>
             <figure>
@@ -122,11 +122,11 @@
               <figcaption>Imbissburg Weihnachtsmarkt</figcaption>
             </figure>
             <figure>
-              <img src="Bilder/bild008.jpg" alt="Bild8">
+              <img src="Bilder/bild008-min.jpg" alt="Bild8">
               <figcaption>Imbissburg Weihnachtsmarkt</figcaption>
             </figure>
             <figure>
-              <img src="Bilder/bild009.jpg" alt="Bild9">
+              <img src="Bilder/bild009-min.jpg" alt="Bild9">
               <figcaption>Imbiss Fasnacht</figcaption>
             </figure>
             <figure>
@@ -145,9 +145,9 @@
         </div>
         <div id="location">
           <h4>Wo Sie uns treffen können...</h4><br>
-          <p><b>5. - 20.10.2019</b> - <span>Lozärner Herbstmääs</span> <br>auf dem Inseli am Lunapark und auf dem Bahnhofplatz beim Torbogen <br><br>
-            <b>5. - 22.12.2019</b> <span>Lozärner Wiehnachtsmarkt</span> <br>auf dem Feanziskanerplatz <br><br>
-            <b>20. - 25.2.2019</b> <span>Lozärner Fasnacht</span> <br>auf dem Rosengartplatz bei der Kapellbrücke <br><br>
+          <p>
+            <b>5. - 22.Dezember.2019</b> <span>Lozärner Wiehnachtsmarkt</span> <br>auf dem Feanziskanerplatz <br><br>
+            <b>20. - 25.Februar.2019</b> <span>Lozärner Fasnacht</span> <br>auf dem Rosengartplatz bei der Kapellbrücke <br><br>
           </p>
         </div>
       </div>
