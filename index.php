@@ -64,9 +64,9 @@
           <h4>Imbiss</h4>
           <img src="Bilder/imbiss.jpg" alt="imbiss"></img>
           <p>
-          Unsere beiden Imbisswagen trifft man an verschiedenen Anlässen wie Messen, Märkten oder an der Fasnacht an. Wo immer möglich, setzen wir <span id="frische">regionale,
+          Unsere beiden Imbisswagen trifft man an verschiedenen Anlässen wie Messen, Märkten oder an der Fasnacht an. Wo immer möglich, setzen wir <span class="markant">regionale,
           frische und gesunde Produkte</span> ein. Feine Würste vom Grill, saftige Hamburger, verschiedene Hot Dogs mit frisch gebackenem Brot und leckere Raclette- und
-          Chnobli-Brote geniesst man bei uns. <br><br> <span id="zitat"> Doch der Mensch lebt nicht vom Brot allein. Nach einer gewissen Weile braucht er auch einen Drink (Woody Allen).</span> <br><br>
+          Chnobli-Brote geniesst man bei uns. <br><br> <span class="zitat"> Doch der Mensch lebt nicht vom Brot allein. Nach einer gewissen Weile braucht er auch einen Drink (Woody Allen).</span> <br><br>
           Unser Angebot erstreckt sich von Mineral über Süssgetränke bis zu alkoholischen Getränken wie Wein oder frisch gezapftem Bier. Auch mit Tee und Kaffee,
           Punsch oder Kafi Schnaps löscht man sich bei uns den Durst. An kalten Tagen servieren wir Ihnen auch gerne den besten Glühwein.  </p>
         </div>
@@ -77,9 +77,9 @@
           <h4>BBQ Catering</h4>
           <img src="Bilder/grill.png" alt="grill"></img>
           <p>
-          Planen Sie ein Event, ein Geburtstags- oder sogar ein Betriebsfest? Gerne unterstützen wir Sie dabei und fahren mit unserem <span id="bbq">BBQ-Catering-Anhänger</span> zu Ihnen. <br><br>
+          Planen Sie ein Event, ein Geburtstags- oder sogar ein Betriebsfest? Gerne unterstützen wir Sie dabei und fahren mit unserem <span class="markant">BBQ-Catering-Anhänger</span> zu Ihnen. <br><br>
           Sei es ein saftiger Schweinskrustenbraten vom Nidwaldner Säuli, ein rosa gebratenes, zartes Stück Fleisch vom BBQ-Rind, ein leckeres Pouletsteak, ein aromatisches
-          Stück vom Lamm oder einfach eine schmackhafte Grillwurst. Gegart auf dem <span id="holzkohle">Holzkohlengrill</span> schmeckt’s einfach besser!  </p>
+          Stück vom Lamm oder einfach eine schmackhafte Grillwurst. Gegart auf dem <span class="markant">Holzkohlengrill</span> schmeckt’s einfach besser!  </p>
         </div>
       </div>
     </section>
@@ -146,8 +146,8 @@
         <div id="location">
           <h4>Wo Sie uns treffen können...</h4><br>
           <p>
-            <b>5. - 22.Dezember.2019</b> <span>Lozärner Wiehnachtsmarkt</span> <br>auf dem Feanziskanerplatz <br><br>
-            <b>20. - 25.Februar.2019</b> <span>Lozärner Fasnacht</span> <br>auf dem Rosengartplatz bei der Kapellbrücke <br><br>
+            <b>5.-22. Dezember 2019</b> <span>Lozärner Weihnachtsmarkt</span> <br>auf dem Franziskanerplatz <br><br>
+            <b>20.-25. Februar 2019</b> <span>Lozärner Fasnacht</span> <br>auf dem Rosengartplatz bei der Kapellbrücke <br><br>
           </p>
         </div>
       </div>
@@ -169,8 +169,8 @@
               <a href="#">View more</a>
             </figcaption>
         </figure>
-        <p>Sutis Imbiss & BBQ Catering ist ein Familienbetrieb, der schmackhafte und genussvolle Waren anbietet.
-          Frische und Genuss – gepaart mit Freundlichkeit! Will heissen, wir beglücken Besucher mit leckeren Speisen,
+        <p>Sutis Imbiss & BBQ Catering ist ein <span class="markant">Familienbetrieb</span>, der schmackhafte und genussvolle Waren anbietet.
+          <br><br> <span class="zitat">Frische und Genuss – gepaart mit Freundlichkeit!</span> <br><br>Will heissen, wir beglücken Besucher mit leckeren Speisen,
           kompetenter Bedienung und einem freundlichen Lächeln. Unsere Gäste schätzen unser Angebot und unsere aufmerksame Art sehr. </p>
       </div>
     </section>
@@ -181,7 +181,7 @@
     <section id="kontakt">
       <h3>Kontakt</h3>
       <hr>
-      <form method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
+      <form id="form" method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
         <div class="success">
           <span> <br> <?= $success; ?></span>
           <i class="far fa-times-circle"></i>

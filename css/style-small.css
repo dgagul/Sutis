@@ -1,17 +1,5 @@
 /* MOBILE */
 
-@media screen and (max-width: 720px) {
-
-  #bilderkarussell {
-    width: 70%;
-    height: 300px;
-    margin: 0 15%;
-    overflow: hidden;
-    border-radius: 10px;
-  }
-
-}
-
 @media screen and (max-width: 666px) {
 
   /* HEADER ***************************/
@@ -88,66 +76,47 @@
     background-color: #eeeeee;
   }
 
+  /* IMPRESSIONEN ***************************/
+
+  #bilderkarussell {
+    width: 90%;
+    height: 270px;
+    margin: 0 5% 30px 5%;
+  }
+
+  /* KONTAKT ***************************/
+
   .success{
     margin-top: 45px;
   }
 
-}
-
-@media screen and (max-width: 585px) {
-
-
-  #h1 {
-    margin-top: 80px;
-    width: 200px;
-  }
-
-  #home h2 {
-    width: 70%;
-    height: auto;
-  }
-
-  #pfeil {
-    width: 20px;
-    margin-top: 100px;
-  }
-
-  h3 {
-    padding-top: 12%;
-  }
-
-
-  /* ANGEBOT ***************************/
-
-  #angebot p {
-    font-size: 12px;
-  }
-
-
   /* KONTAKT ***************************/
 
-  form input, form textarea {
-    width: 70%;
+  form input {
+    width: 60%;
   }
 
-  .button {
-    width: 73%;
+  form textarea {
+    width: 59.9%;
   }
 
   .input_text {
-    margin-bottom: 6px;
-  }
-
-  .alert {
-    margin-left: -37%;
-    margin-bottom: 5px;
-    width: 68%;
+    margin: 0 20% 6px 20%;
   }
 
   .alert.show {
     font-size: 12px;
   }
 
+  .button {
+    width: 63%;
+    margin: 0 20% 0 20%;
+  }
+
+  .alert {
+    width: 59%;
+    margin: -2px 20% 0 20%;
+  }
 
   /* FOOTER ***************************/
 

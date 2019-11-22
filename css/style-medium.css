@@ -37,24 +37,24 @@
     margin-top: 140px;
   }
 
-  h3 {
-    padding-top: 10%;
-  }
-
   /* ANGEBOT ***************************/
 
   #imbiss {
     width: 100%;
   }
 
-  #imbiss img {
-    width: 70%;
-    height: 245px;
-  }
-
   #grill {
     width: 100%;
     margin-top: 45px;
+  }
+
+  h3 {
+    padding-top: 10%;
+
+  }
+
+  #imbiss img, #grill img {
+    width: 80%;
   }
 
 
@@ -66,12 +66,13 @@
 
   #eindrücke, #location {
     width: 100%;
+    float: none;
   }
 
   #bilderkarussell {
-    width: 60%;
-    margin: auto 20%;
-    height: 330px;
+    width: 70%;
+    margin: auto 15%;
+    height: 380px;
   }
 
 
@@ -87,6 +88,10 @@
     padding-bottom: 50px;
   }
 
+  .grid figure {
+    margin: 0 1% 35px 1%;
+  }
+
 
   /* KONTAKT ***************************/
 
@@ -94,18 +99,32 @@
     padding-bottom: 20px;
   }
 
-  form input, form textarea {
-    width: 60%;
-  }
-
-  .button {
-    width: 62%;
-  }
-
   .success{
     margin-top: 50px;
     height: auto;
   }
+
+  .alert {
+    margin: -3px 25% 0 25%;
+  }
+
+  #mailAlert {
+    margin-top: 1px;
+  }
+
+  .alert.show {
+    font-size: 14px;
+  }
+
+  .input_text {
+    margin-bottom: 6px;
+  }
+
+  .button {
+    width: 52%;
+  }
+
+
 
   /* FOOTER ***************************/
 
@@ -124,42 +143,4 @@
   .angaben {
     font-size: 13px;
   }
-}
-
-
-
-@media screen and (max-width: 970px) {
-
-  /* KONTAKT ***************************/
-
-  .input_text {
-    margin-bottom: 6px;
-  }
-
-  .alert {
-    margin-left: -31%;
-    margin-bottom: 5px;
-    width: 58%;
-  }
-
-  .alert::before {
-    position: absolute;
-    bottom: 90%;
-    left: 10px;
-    width: 0px;
-    height: 0px;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid #cc3300;
-  }
-
-  .alert.show {
-    font-size: 14px;
-  }
-
-  #textAlert {
-    margin-top: -4px;
-    margin-bottom: 10px;
-  }
-
 }

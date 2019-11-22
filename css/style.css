@@ -21,7 +21,7 @@ hr {
   background: #494949;
   border: 0;
   margin: 0 auto 30px auto;}
-#logo, li, img, .button {transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms}
+#logo, li, img, .button, #fa-bars, #fa-times {transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms}
 .fa-bars, .fa-times {display: none;}
 
 
@@ -107,6 +107,8 @@ header nav ul li:hover {
 
 /* ANGEBOT ***************************/
 
+
+
 #angebot {
   background-color: #e6f2ff;
   min-height: 100%;
@@ -139,11 +141,11 @@ header nav ul li:hover {
   margin: 15px auto 30px auto;
 }
 
-#frische, #bbq, #holzkohle {
+.markant {
   font-weight: 800;
 }
 
-#zitat {
+.zitat {
   font-weight: 800;
   font-style: italic;
 
@@ -153,15 +155,9 @@ header nav ul li:hover {
   margin-top: 15px;
 }
 
-#imbiss img {
+#imbiss img, #grill img {
   width: 85%;
-  height: 235px;
   border-radius: 5px;
-}
-
-#grill img {
-  width: 370px;
-  height: 235px;
 }
 
 #angebot img:hover {
@@ -195,11 +191,6 @@ header nav ul li:hover {
 #location {
   width: 50%;
   float: right;
-}
-
-#location p {
-  margin-left: 50px;
-  text-align: left;
 }
 
 #location p span {
@@ -286,6 +277,8 @@ header nav ul li:hover {
 
 
 /* ÜBER UNS ***************************/
+
+
 
 #überuns {
   min-height: 100%;
@@ -455,13 +448,18 @@ form input, textarea {
   border-color: #494949;
 }
 
+#form {
+  width: 100%;
+  text-align: left;
+}
+
 form input {
-  width: 552px;
+  width: 50%;
   height: 30px;
 }
 
 form textarea {
-  width: 550px;
+  width: 49.9%;
   height: 150px;
   resize: none;
 }
@@ -469,6 +467,7 @@ form textarea {
 .input_text {
   color: #494949;
   padding-left: 10px;
+  margin: 0 25% 0 25%;
 }
 
 ::-webkit-input-placeholder {color: #999999;}
@@ -479,9 +478,9 @@ form textarea {
 .button {
   background-color: #f0f0f0;
   color: #494949;
-  width: 566px;
+  width: 51.1%;
   height: 50px;
-  margin-right: 2px;
+  margin: 0 25% 0 25%;
 }
 
 .button:hover {
@@ -494,31 +493,35 @@ form textarea {
 }
 
 .alert {
-  width: auto;
+  width: 49%;
   background-color: #cc3300;
   color: #fff;
-  text-align: left;
   border-radius: 6px;
-  padding: 8px 12px 8px 12px;
+  padding: 6px 12px 6px 12px;
   position: absolute;
-  margin: auto 6px;
+  text-align: left;
+  margin: 2px 25% 0 25%;
 }
 
-@media screen and (min-width: 1260px) {
-  .alert {
-    width: 300px;
-  }
+#mailAlert{
+  margin-top: 5px;
 }
 
 .alert:before {
   content: "";
   position: absolute;
-  left: -6px;
-  border-width: 10px 15px 10px 0;
-  border-style: solid;
-  border-color: transparent #cc3300 transparent transparent;
+  bottom: 90%;
+  left: 10px;
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #cc3300;
 }
 
+#mailAlert, #textAlert {
+  visibility: hidden;
+}
 
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
@@ -591,14 +594,6 @@ form textarea {
   100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
 }
 
-#mailAlert {
-  visibility: hidden;
-}
-
-#textAlert {
-  visibility: hidden;
-}
-
 #textAlert.show, #mailAlert.show, .success.show{
   visibility: visible;
   -webkit-animation: fadeIn 1195ms linear both;
@@ -620,6 +615,7 @@ form textarea {
   border: 2px solid;
   outline: none;
   border-color: #494949;
+  text-align: center;
 }
 
 .success span {
