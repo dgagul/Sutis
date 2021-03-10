@@ -1,25 +1,22 @@
-$(document).ready(function() {
-
+$(document).ready(function () {
   var $errorVarMail = $("#errorVarMail").val();
   var $errorVarText = $("#errorVarText").val();
   var $successVar = $("#successVar").val();
   var $width = $(window).width();
 
-
-  if($errorVarMail != "") {
+  if ($errorVarMail != "") {
     $("#mailAlert").addClass("show");
-    $("#br1").css('display', 'inline')
-    $("#br2").css('display', 'inline')
-  };
+    $("#br1").css("display", "inline");
+    $("#br2").css("display", "inline");
+  }
 
-  if($errorVarText != "") {
+  if ($errorVarText != "") {
     $("#textAlert").addClass("show");
-    $("#br3").css('display', 'inline')
-    $("#br4").css('display', 'inline')
-  };
+    $("#br3").css("display", "inline");
+    $("#br4").css("display", "inline");
+  }
 
-  if($successVar != "") {
+  if ($successVar != "") {
     $(".success").addClass("show");
-  };
-
+  }
 });

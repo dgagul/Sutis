@@ -1,7 +1,6 @@
 /* TABLETS */
 
 @media screen and (max-width: 1024px) {
-
   /* HEADER ***************************/
 
   header {
@@ -22,6 +21,10 @@
   }
 
   /* HOME ***************************/
+
+  #home {
+    background-attachment: scroll;
+  }
 
   #h1 {
     margin-top: 80px;
@@ -50,13 +53,12 @@
 
   h3 {
     padding-top: 10%;
-
   }
 
-  #imbiss img, #grill img {
+  #imbiss img,
+  #grill img {
     width: 80%;
   }
-
 
   /* IMPRESSIONEN ***************************/
 
@@ -64,7 +66,8 @@
     padding-bottom: 50px;
   }
 
-  #eindrücke, #location {
+  #eindrücke,
+  #location {
     width: 100%;
     float: none;
   }
@@ -75,13 +78,10 @@
     height: 380px;
   }
 
-
   /* ÜBER UNS ***************************/
-
 
   #überuns p {
     left: 10px;
-    font-size: 14px;
   }
 
   #überuns {
@@ -92,14 +92,13 @@
     margin: 0 1% 35px 1%;
   }
 
-
   /* KONTAKT ***************************/
 
   #kontakt {
     padding-bottom: 20px;
   }
 
-  .success{
+  .success {
     margin-top: 50px;
     height: auto;
   }
@@ -124,8 +123,6 @@
     width: 52%;
   }
 
-
-
   /* FOOTER ***************************/
 
   .inhalt {
@@ -136,7 +133,8 @@
     font-size: 13px;
   }
 
-  .fa-facebook-square, .fa-instagram {
+  .fa-facebook-square,
+  .fa-instagram {
     font-size: 24px;
   }
 

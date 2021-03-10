@@ -91,26 +91,26 @@
       <hr>
 
       <div>
-        <div id="eindrücke">
+        <div id="eindrücke" >
           <div id="bilderkarussell">
             <figure>
-              <img src="Bilder/bild001-min.jpg" alt="Bild1">
-              <figcaption>Imbissburg Luga</figcaption>
+              <img src="Bilder/bild001.jpeg" alt="Bild1">
+              <figcaption>Herzlich willkommen bei Sutis</figcaption>
             </figure>
             <figure>
               <img src="Bilder/bild002.jpg" alt="Bild2">
               <figcaption>Imbissburg Määs Luzern</figcaption>
             </figure>
             <figure>
-              <img src="Bilder/bild003.jpg" alt="Bild3">
+              <img src="Bilder/bild003.jpeg" alt="Bild3">
+              <figcaption>Capitano am Grill</figcaption>
+            </figure>
+            <figure>
+              <img src="Bilder/bild004.jpg" alt="Bild4">
               <figcaption>Imbissburg Määs Luzern</figcaption>
             </figure>
             <figure>
-              <img src="Bilder/bild004-min.JPG" alt="Bild4">
-              <figcaption>Imbissburg Määs Luzern</figcaption>
-            </figure>
-            <figure>
-              <img src="Bilder/bild005-min.JPG" alt="Bild5">
+              <img src="Bilder/bild005.JPG" alt="Bild5">
               <figcaption>Imbissburg Määs Luzern</figcaption>
             </figure>
             <figure>
@@ -122,20 +122,20 @@
               <figcaption>Imbissburg Weihnachtsmarkt</figcaption>
             </figure>
             <figure>
-              <img src="Bilder/bild008-min.jpg" alt="Bild8">
-              <figcaption>Imbissburg Weihnachtsmarkt</figcaption>
+              <img src="Bilder/bild008.JPG" alt="Bild8">
+              <figcaption>Imbiss Määs Luzern</figcaption>
             </figure>
             <figure>
-              <img src="Bilder/bild009-min.jpg" alt="Bild9">
-              <figcaption>Imbiss Fasnacht</figcaption>
+              <img src="Bilder/bild009.jpg" alt="Bild9">
+              <figcaption>Imbissburg LUGA</figcaption>
             </figure>
             <figure>
-              <img src="Bilder/bild010.jpg" alt="Bild10">
-              <figcaption>Imbiss Fasnacht</figcaption>
+              <img src="Bilder/bild010.PNG" alt="Bild10">
+              <figcaption>Food is love</figcaption>
             </figure>
             <figure>
-              <img src="Bilder/bild011.jpg" alt="Bild11">
-              <figcaption>Imbiss Fasnacht</figcaption>
+              <img src="Bilder/bild011.JPG" alt="Bild11">
+              <figcaption>Unsere liebe Gabi schenkt jedem Gast ein Lächeln</figcaption>
             </figure>
             <figure>
               <img src="Bilder/bild012.jpg" alt="Bild12">
@@ -146,8 +146,10 @@
         <div id="location">
           <h4>Wo Sie uns treffen können...</h4><br>
           <p>
-            <b>5.-22. Dezember 2019</b> <span>Lozärner Weihnachtsmarkt</span> <br>auf dem Franziskanerplatz <br><br>
-            <b>20.-25. Februar 2019</b> <span>Lozärner Fasnacht</span> <br>auf dem Rosengartplatz bei der Kapellbrücke <br><br>
+			<span>Lozärner Määs </span><b>leider abgesagt aufgrund von COVID-19</b><br><br>
+			<span>Lozärner Wiehnachtsmärt </span><b>leider abgesagt aufgrund von COVID-19</b><br><br><br><br>
+			<span>Wir sind aber trotzdem für Sie da!</span><br><br>
+			<a href=#kontakt><b style="color: black; border: 1.5px solid black; padding: 3px;">Buchen Sie uns jetzt für Ihr Catering</b></a>
           </p>
         </div>
       </div>
